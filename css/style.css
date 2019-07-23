@@ -1,0 +1,223 @@
+*{
+	box-sizing: border-box;
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+}
+
+.cityimg{
+	position: absolute;
+	top:-50px;
+	right:70px;
+	color:black;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background-color: darkOrange;
+	color: white;  more readable on an orange background
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* pale orange
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: wheat;
+} */
+
+nav a, nav h3{
+	float: left;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%; /*change the width*/
+	float: right;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top:10px;
+  right:-10px;
+}
+
+.headcolor{
+	color: white;
+	position: absolute;
+  top:35px;
+  left:10px;
+  font-family: "Arial Black";
+  font-size: 36px;
+
+}
+
+.headcolor2{
+	color: white;
+	position: absolute;
+  top:70px;
+  left:20px;
+  font-family: "Arial Black";
+  font-size: 40px;
+
+}
+
+#line {
+	height:0.5px;
+	background-color:black;
+	position: static;
+  margin-top: -170px ;
+  margin-right: 0px;
+
+}
+
+.one{
+	position: absolute;
+	top:5.7%;
+	right:420px;
+	color:white;
+  text-decoration: none;
+	border: 1px solid white;
+   border-radius: 10px;
+	 background: black;
+
+}
+
+.two{
+	position: absolute;
+	top:5.7%;
+	right:220px;
+	color:white;
+	border: 1px solid white;
+	 border-radius: 10px;
+	 background: black;
+
+}
+
+.three{
+	position: absolute;
+	top:5.7%;
+	right:70px;
+	color:white;
+	border: 1px solid white;
+	 border-radius: 10px;
+	 background: black;
+
+}
+
+.Intro{
+	font-size:900%;
+	/*position: relative;
+	left:center;
+	margin-top:10%;
+	left: 8%;*/
+	padding: 10%;
+
+
+}
+
+.Intro1{
+	font-size: 60px;
+	/*position: relative;
+	left:100px;
+	top:50%;*/
+	padding: 1px;
+}
+
+.intro2{
+	font-size: 20px;
+    width: 500px;
+	position: relative;
+	left:100px;
+	top:120px;
+}
+
+.Layer_1 {
+  background-image: url("Layer 1.png");
+  position: absolute;
+ right: 5%;
+  top: 20%;
+
+  
+  z-index: 2;
+}
+
+.camera {
+	margin-top: 40%;
+	margin-bottom: 10%;
+}
+
+.p{
+	padding: 100px;
+	padding-bottom: 100px;
+}
+
+.one:hover{
+	 background-color: rgba(0, 0, 0, 0.1);
+	 color: black;
+}
+
+
+.two:hover{
+	 background-color: rgba(0, 0, 0, 0.1);
+	 color: black;
+}
+
+.three:hover{
+	 background-color: rgba(0, 0, 0, 0.1);
+	 color: black;
+}
